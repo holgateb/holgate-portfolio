@@ -1,13 +1,9 @@
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col, Button, Card } from "react-bootstrap";
 
 function Skills() {
   return (
     <main>
-      <h2>My Skills</h2>
+      <h2 style={{justifyContent: "center",alignItems: "center"}}>Skills</h2>
       <Container>
         <Row>
           <Col>

@@ -9,6 +9,8 @@ import projImg6 from "../assets/img/project-img6.png";
 
 function Projects() {
   return (
+    <main>
+      <h2>Projects</h2>
     <Carousel fade>
       <Carousel.Item>
         <img className="d-block w-100" src={projImg1} alt="First Slide" />
@@ -65,6 +67,7 @@ function Projects() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </main>
   );
 }
 
