@@ -1,14 +1,16 @@
 import React from "react";
-import "./App.css";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navbar";
 // import Banner from "./components/Banner";
 // import Skills from "./components/Skills";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
+import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <div>
+      <Navigation />
+      <Footer />
     </div>
   );
 }
