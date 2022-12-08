@@ -3,7 +3,7 @@ import { Container, Row, Col, Button, Card } from "react-bootstrap";
 function Skills() {
   return (
     <main>
-      <h2 style={{justifyContent: "center",alignItems: "center"}}>Skills</h2>
+      <h2 style={{float: "center"}}>Skills</h2>
       <Container>
         <Row>
           <Col>

@@ -1,8 +1,6 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
-import logo from "../assets/img/logo.png";
+import logo from "../assets/img/logo-thin.png";
 
 function Navigation() {
   return (
@@ -12,8 +10,8 @@ function Navigation() {
           <img
             src={logo}
             alt="Logo"
-            width="100"
-            height="100"
+            width="150"
+            height="75"
             // className="d-inline-block align-top"
           />
         </Navbar.Brand>
