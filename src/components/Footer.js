@@ -9,7 +9,7 @@ function Footer() {
       <Navbar bg="dark">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Container>
+          <Container class="w-100 me-auto">
             <Nav>
               <Navbar.Brand href="https://github.com/holgateb">
                 <img src={navIcon1} alt="LI" width="50" height="50" />

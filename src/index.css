@@ -1,10 +1,22 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-family: Georgia;
+  margin: 10px;
+}
+
+nav {
+  font-family: Georgia;
+  font-size: larger;
+}
+
+h1 {
+  font-family: Georgia;
 }
 
 code {

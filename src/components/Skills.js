@@ -11,7 +11,7 @@ import node from "../assets/img/node.png";
 function Skills() {
   return (
     <main style={{ padding: "25px" }}>
-      <Container>
+      <Container id="skills">
         <Row style={{ padding: "25px" }}>
           <Col>
             <Card style={{ width: "18rem", height: "28rem" }}>

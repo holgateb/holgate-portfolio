@@ -9,8 +9,8 @@ import projImg6 from "../assets/img/project-img6.png";
 
 function Projects() {
   return (
-    <Container>
-      <h2 style={{ textAlign: "center" }}>Projects</h2>
+    <Container id="projects">
+      <h1 style={{ textAlign: "center" }}>Projects</h1>
       <Carousel style={{ width: "100%", padding: "20px" }} fade>
         <Carousel.Item>
           <img className="d-block w-100" src={projImg1} alt="First Slide" />

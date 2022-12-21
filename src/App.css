@@ -11,11 +11,6 @@
   min-height: calc(100vh - 34px);
 }
 
-h2 {
-  align-items: center;
-  justify-content: center;
-}
-
 .footer--pin {
   position: relative;
   left: 0;

@@ -5,12 +5,12 @@ import profile from "../assets/img/profile.png";
 
 function Banner() {
   return (
-    <Container style={{ padding: "50px" }}>
+    <Container id="about" style={{ padding: "50px" }}>
       <Row>
         <Col sm={4}>
           <img src={profile} alt="Logo" width="300" height="300"></img>
         </Col>
-        <Col style={{ padding: "50px" }}>
+        <Col style={{ padding: "40px" }}>
           <p>
             Engaging, customer-centric IT professional, acknowledged for
             consistent impact in positions involving technical troubleshooting
