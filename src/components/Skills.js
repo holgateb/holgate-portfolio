@@ -10,11 +10,11 @@ import node from "../assets/img/node.png";
 
 function Skills() {
   return (
-    <main style={{ padding: "50px" }}>
+    <main style={{ padding: "25px" }}>
       <Container>
-        <Row>
+        <Row style={{ padding: "25px" }}>
           <Col>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem", height: "28rem" }}>
               <Card.Img variant="top" src={react} />
               <Card.Body>
                 <Card.Title>React</Card.Title>
@@ -53,7 +53,7 @@ function Skills() {
             </Card>
           </Col>
         </Row>
-        <Row>
+        <Row style={{ padding: "25px" }}>
           <Col>
             <Card style={{ width: "18rem" }}>
               <Card.Img variant="top" src={javascript} />

@@ -1,5 +1,6 @@
 import { Container, Nav, Navbar } from "react-bootstrap";
-
+import navIcon1 from "../assets/img/nav-icon1.png";
+import navIcon2 from "../assets/img/nav-icon2.png";
 import logo from "../assets/img/logo-thin.png";
 
 function Navigation() {
@@ -25,6 +26,12 @@ function Navigation() {
             <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <Navbar.Brand href="https://github.com/holgateb">
+                <img src={navIcon1} alt="LI" width="50" height="50" />
+              </Navbar.Brand>
+              <Navbar.Brand href="https://www.linkedin.com/in/benholgate/">
+                <img src={navIcon2} alt="GH" width="50" height="50" />
+              </Navbar.Brand>
       </Container>
     </Navbar>
   );
