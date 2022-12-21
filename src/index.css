@@ -5,6 +5,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p {
+  font-family: Georgia;
+  margin: 10px;
+}
+
 p1 {
   font-family: Georgia;
   margin: 10px;
