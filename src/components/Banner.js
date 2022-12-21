@@ -10,8 +10,8 @@ function Banner() {
         <Col sm={4}>
           <img src={profile} alt="Logo" width="300" height="300"></img>
         </Col>
-        <Col style={{ padding: "40px" }}>
-          <p>
+        <Col style={{ padding: "25px" }}>
+          <p1>
             Engaging, customer-centric IT professional, acknowledged for
             consistent impact in positions involving technical troubleshooting
             and problem resolution, internal/external customer support, systems
@@ -24,7 +24,7 @@ function Banner() {
             terminology to relatable language. A skilled personnel manager with
             demonstrated ability to mentor team members to promotion.
             Technically-savvy and committed to ongoing professional development.
-          </p>
+          </p1>
         </Col>
       </Row>
     </Container>

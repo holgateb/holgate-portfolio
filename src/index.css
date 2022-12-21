@@ -5,14 +5,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-p {
+p1 {
   font-family: Georgia;
   margin: 10px;
+  font-size: large;
 }
 
 nav {
   font-family: Georgia;
-  font-size: larger;
+  font-size:x-large;
 }
 
 h1 {

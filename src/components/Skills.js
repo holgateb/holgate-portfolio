@@ -14,7 +14,7 @@ function Skills() {
       <Container id="skills">
         <Row style={{ padding: "25px" }}>
           <Col>
-            <Card style={{ width: "18rem", height: "28rem" }}>
+            <Card style={{ width: "18rem", height: "30rem", padding: "10px" }}>
               <Card.Img variant="top" src={react} />
               <Card.Body>
                 <Card.Title>React</Card.Title>
@@ -27,7 +27,7 @@ function Skills() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem", height: "30rem", padding: "10px" }}>
               <Card.Img variant="top" src={bootstrap} />
               <Card.Body>
                 <Card.Title>Bootstrap</Card.Title>
@@ -40,7 +40,7 @@ function Skills() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem", height: "30rem", padding: "10px" }}>
               <Card.Img variant="top" src={mongo} />
               <Card.Body>
                 <Card.Title>MongoDB</Card.Title>
@@ -55,7 +55,7 @@ function Skills() {
         </Row>
         <Row style={{ padding: "25px" }}>
           <Col>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem", height: "30rem", padding: "10px" }}>
               <Card.Img variant="top" src={javascript} />
               <Card.Body>
                 <Card.Title>JavaScript ES6+</Card.Title>
@@ -68,7 +68,7 @@ function Skills() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem", height: "30rem", padding: "10px" }}>
               <Card.Img variant="top" src={express} />
               <Card.Body>
                 <Card.Title>Express</Card.Title>
@@ -80,7 +80,7 @@ function Skills() {
             </Card>
           </Col>
           <Col>
-            <Card style={{ width: "18rem" }}>
+            <Card style={{ width: "18rem", height: "30rem", padding: "10px" }}>
               <Card.Img variant="top" src={node} />
               <Card.Body>
                 <Card.Title>NodeJS</Card.Title>
